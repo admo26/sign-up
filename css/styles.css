@@ -1,0 +1,61 @@
+@font-face {
+  font-family: my-cool-font;
+  src: url(../fonts/Norse-Bold.otf);
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.norse {
+  font-family: my-cool-font, sans-serif;
+  color: white;
+}
+
+.card-container {
+  position: relative;
+  width: 100%;
+}
+.card-image {
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 40vw;
+}
+.card-body {
+  position: absolute;
+  width: 40vw;
+  background: black;
+  opacity: 0.6;
+  color: white;
+  top: 8rem;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: roboto;
+}
+
+.card-heading {
+  position: absolute;
+}
+
+.logo{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.create-account-btn {
+  background-color: #596d48;
+  color: white;
+}

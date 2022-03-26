@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+     <div class="content">
+    <div class="card-container">
+        <img class="card-image" src="static/ferns.avif" />
+      <div>
+        <img class="logo" src="static/odin-lined.png" />
+      </div>
+      <div>
+        <p class="card-body">ODIN</p>
+      </div>
+      <div>
+        <p>
+          Photo by
+          <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+          <a href="https://unsplash.com/photos/25xggax4bSA">Uplash</a>
+        </p>
+      </div>
+    </div>
+    <div class="input">
+    <div>
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realise your deepest dreams. Sign up
+        <em>now</em> to get started.
+      </p>
+      <p>You <em>know</em> you want to.</p>
+    </div>
+    <div>
+      <p>Let's do this!</p>
+    </div>
+    <div>
+      <form
+        action="example.com/path"
+        method="post"
+        onsubmit="return verifyPassword()"
+      >
+        <label for="firstName">FIRST NAME</label>
+        <input type="text" id="firstName" />
+        <label for="lastName">LAST NAME</label>
+        <input type="text" id="lastName" />
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" />
+        <label for="phone">PHONE NUMBER</label>
+        <input type="number" id="phone" />
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" />
+        <label for="confirmPassword">CONFIRM PASSWORD</label>
+        <input type="password" id="confirmPassword" />
+        <button type="submit" class="create-account-btn">Create Account</button>
+      </form>
+    </div>
+    <div>
+      <p>Already have an account? <a href="example.com/login">Log in</a></p>
+    </div>
+</div> 
+</div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
